@@ -30,7 +30,7 @@ void swap(int* P1, int* P2) //p1 gets num1's adress and p2 gets num2's adresss
 {
 	int temp;
 	temp = *P1; //The star means u want to get the value of the address.
-	*P2 = *P1;
+	*P1 = *P2;
 	*P1 = temp;
 
 }
